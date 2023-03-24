@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+.header-nav{
     background-color: rgb(3, 3, 100);
     padding: 10px 50px 10px 50px;
     display: grid;
@@ -34,7 +34,7 @@ nav li{
     margin: 0 10px;
 }
 
-main{
+.main-jumbotron{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: rgba(5, 5, 133, 0.774);
@@ -106,9 +106,49 @@ img{
     margin:0 auto
 }
 
+.titulo-catalogo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.card-header h1 {
+    font-size: 25px;
+}
+
+.card-price h2 {
+    font-size: 20px;
+}
+
+.card-footer {
+    margin-bottom: 25px;
+}
+
 @media (max-width:768px){
     main{
         display: flex;
         flex-direction: column;
     }
 }
+
+/*responsive*/
+@media(max-width: 768px){
+    .plans{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*responsive*/
