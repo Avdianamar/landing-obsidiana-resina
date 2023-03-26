@@ -122,6 +122,10 @@ input{
     text-align: center;
 }
 
+#catalogo{
+    margin-bottom: 50px;
+}
+
 .titulo-catalogo{
     text-align: center;
     margin-top: 40px;
@@ -139,6 +143,7 @@ input{
     border: black solid 1px;
     border-radius: 20px;
     width: 300px;
+    background-color: #f0e4f1b0;
 }
 
 .card-header h1 {
@@ -161,6 +166,53 @@ input{
     margin-bottom: 25px;
 }
 
+.card-footer button{
+    margin-top: 6px;
+    background-color: #ae5dbd;
+    color: white;
+}
+
+.card-footer button:hover{
+    background-color: #5e036e;
+}
+
+.asesoria{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(5, 5, 133, 0.774);
+}
+
+.img-asesoria img{
+    width: 100%;
+}
+
+.text-asesoria{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.text-asesoria h4{
+    color: rgba(191, 191, 224, 0.829);
+}
+
+.text-asesoria h2{
+    color: white;
+}
+
+.text-asesoria button{
+    margin-top: 30px;
+    color: black;
+}
+
+.text-asesoria button:hover{
+    background-color: rgba(153, 153, 238, 0.774); 
+}
+
+
 /*responsive*/
 @media (max-width:768px){
     .header-nav{
@@ -180,6 +232,13 @@ input{
     .plans{
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media(max-width:768px){
+    .asesoria{
+        display: flex;
+        flex-direction: column;
     }
 }
 /*responsive*/
