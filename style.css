@@ -205,6 +205,8 @@ input{
 
 .text-asesoria button{
     margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
     color: black;
 }
 
@@ -212,6 +214,37 @@ input{
     background-color: rgba(153, 153, 238, 0.774); 
 }
 
+#footer{
+    background-color: rgb(3, 3, 100); 
+    padding: 80px 200px 50px 200px;
+}
+
+#footer-top{
+    display: grid;
+    grid-template-columns: 18% 75% 1fr;
+}
+
+#footer-top .nav-footer{
+    display: flex;
+    align-items: baseline;
+}
+
+.iconos a{
+    text-decoration: none;
+}
+
+.nav-footer ol li{
+    list-style-type: none;
+    margin-top: 10px;
+    letter-spacing: .08em;
+    color: rgb(215, 216, 228);
+    font-size: 12px;
+}
+
+.titulo-lista{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 /*responsive*/
 @media (max-width:768px){
@@ -237,6 +270,13 @@ input{
 
 @media(max-width:768px){
     .asesoria{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+    #footer #footer-top .nav-footer{
         display: flex;
         flex-direction: column;
     }
