@@ -31,7 +31,9 @@ Esta pagina es realizada con el fin de aprendizaje para el Ucamp de desarrollo w
 
 
 
-![Logo](./imagenes/unnamed%20(1).png)
+
+![Logo]<img src="./imagenes/unnamed%20(1).png" width="200" height="200" alt="Logo">
+
 
 
 
