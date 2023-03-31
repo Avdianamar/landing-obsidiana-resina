@@ -16,29 +16,6 @@ Sigue de un jumbotron, que esta compuesto, por varias secciones:
 Esta pagina es realizada con el fin de aprendizaje para el Ucamp de desarrollo web full stack.
 
 
-## Colors
-
-1. rgb(3, 3, 100)
-2. white
-3. blue
-4. rgba(5, 5, 133, 0.774)
-5. #5e036e
-6. #ae17c9
-7. #300238
-8. rgb(255, 255, 255)
-9. #ddd
-10. rgba(0, 0, 0, 0.5)
-
-
-
-
-![Logo]<img src="./imagenes/unnamed%20(1).png" width="200" height="200" alt="Logo">
-
-
-
-
-
-
 
 ## Authors
 
